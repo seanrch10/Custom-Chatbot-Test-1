@@ -6,3 +6,39 @@
 		webhookUrl: 'https://autolynxai.app.n8n.cloud/webhook/0cfe63a7-c61c-4f8b-a70c-fdbac0dd3bff/chat'
 	});
 </script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coerver Coaching</title>
+<style>
+body {
+margin: 0;
+height: 100vh;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+color: #00ff66; /* green text */
+font-size: 2rem;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<div>Coerver Coaching</div>
+
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://autolynxai.app.n8n.cloud/webhook/0cfe63a7-c61c-4f8b-a70c-fdbac0dd3bff/chat'
+	});
+</script>
+
+</body>
+</html>
